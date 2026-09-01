@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Request a Termco feature
+    url: https://github.com/termco-ai/termco/discussions/categories/ideas
+    about: Product and plugin ideas belong in the central Termco community.
+  - name: Report an application or plugin bug
+    url: https://github.com/termco-ai/termco/issues/new/choose
+    about: Use the structured forms in the main Termco repository.
+  - name: Ask a question
+    url: https://github.com/termco-ai/termco/discussions/categories/q-a
+    about: Get installation and usage help from the community.

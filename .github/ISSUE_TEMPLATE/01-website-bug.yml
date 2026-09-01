@@ -1,0 +1,37 @@
+name: Website bug
+description: Report a broken page, download link, layout, or accessibility problem on the Termco website.
+title: "[Website]: "
+labels: ["bug", "area:website", "status:triage"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://termco.app/...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and operating system
+      placeholder: Safari 20 on macOS
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshot or additional context
+    validations:
+      required: false
