@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+build
+.git
+.impeccable
+*.log
+.env*
+!.env.example
+tsconfig.tsbuildinfo
+Dockerfile
+.dockerignore
