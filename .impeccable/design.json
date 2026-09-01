@@ -1,0 +1,23 @@
+{
+  "northStar": "The Inspectable Workspace",
+  "rules": [
+    "Iris occupies less than ten percent of a viewport.",
+    "Real product evidence precedes architecture explanation.",
+    "Depth is tonal and reserved for genuine foreground layers.",
+    "Monospace is used only for code, paths, commands, versions, and machine state."
+  ],
+  "motion": {
+    "fast": "140ms cubic-bezier(0.22, 1, 0.36, 1)",
+    "standard": "320ms cubic-bezier(0.22, 1, 0.36, 1)",
+    "authored": "700ms cubic-bezier(0.16, 1, 0.3, 1)"
+  },
+  "breakpoints": {
+    "compact": "720px",
+    "wide": "1040px",
+    "canvas": "1440px"
+  },
+  "elevation": {
+    "frame": "0 34px 90px -42px oklch(0.16 0.03 275 / 38%)",
+    "floating": "0 18px 48px -26px oklch(0.16 0.03 275 / 30%)"
+  }
+}
